@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int num;
+
+    cout << "8: ";
+    cin >> num;
+
+    if (num % 2 != 0)
+        cout << "Odd number";
+    else
+        cout << "Even number";
+
+    return 0;
+}
